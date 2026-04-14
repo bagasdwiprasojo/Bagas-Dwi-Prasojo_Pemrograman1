@@ -1,12 +1,21 @@
 public class latihan3_p5 {
     public static void main(String[] args){
-        String nama = "Bagas";
-        if(nama == "Bagas"){
-            System.out.println("Halo Bagas, selamat datang");
-        } else if(nama == "Bagas Dwi Prasojo"){
-            System.out.println("Selamat datang Bagas, sistem siap digunakan.");
+        int nilai = 95;
+        
+        if(nilai > 55){
+            System.out.println("Nilai di atas 55");
+        }
+        if(nilai >=65){
+            System.out.println("Lulus");
         } else {
-            System.out.println("Identitas tidak dikenali, akses ditolak.");
+            System.out.println("Tidak Lulus");
+        }
+        if (nilai >= 85){
+            System.out.println("Grade A");
+        } else if (nilai >= 75){
+            System.out.println("Grade B");
+        } else {
+            System.out.println("Grade C");
         }
     }
 }
